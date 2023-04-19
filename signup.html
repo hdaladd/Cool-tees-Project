@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign UP -- Cool-Tees</title>
+  <!-- link to your stylesheet -->
+  <link rel="stylesheet" type="text/css" href="signup.css">
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="home-header">
+      <div class="logo">
+        <a href="home.html">
+          <img src="cooltees-logo.png" alt="Cool Tees Logo">
+        </a>
+      </div>
+      <img src="web-banner.png" alt="banner" style="width:100%;">
+      <div class="header-h1">
+        <h1><br>Cool Tees for <br>
+          <div class="underlined"><b><u>MEN & WOMEN</u></b>
+        </h1>
+      </div>
+    </div>
+    <nav class="home-nav-icons">
+      <nav class="home-nav-icons">
+        <ul>
+          <!-- link to cart.html -->
+          <li> <a href="cart.html"><img src="cart-icon.png" /></a></li>
+          <!-- link to login_signup.html -->
+          <li><a href="login.html"><img src="user-icon.png"></a></li>
+          <!-- link to search -->
+          <li><a href="index.html"><img src="search-icon.png"></a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <form class="signup-form">
+    <h3 class="signup-header"><button type="button" class="btn cancel" onclick="closeForm()">X</button>
+        Create an account and <br>discover the benefits
+    </h3>
+  
+    <input type="text" placeholder="User Name" name="username" required>
+    <br/>
+    <input type="text" placeholder="Email" name="email" required>
+    <br/>
+    <input type="password" placeholder="Password" name="psw" required>
+  
+    <div class="terms">
+        <input type="checkbox" name="terms" required>
+        <label for="terms"><p>I agree to the Google Terms of Service and Privacy Policy</p></label>
+    </div>
+    <button type="submit" class="btn">Sign up</button>
+    <a href="login.html" class="member">Are you already a member?</a>
+  
+  </form>
+
+
+  <!--*****************************************************      Content part of the page        ******************************************  -->
+  <section class="content">
+    <div class="selectforyou">
+      <p>Selected just for you</p>
+    </div>
+
+
+    <div class="product-grid">
+      <div class="arrows">
+        <img src="home-images/arrow-left-home.png" alt="arrow-left">
+      </div>
+     
+     <!--************************************                        Card Items                                 **************************-->
+     
+      <div class="selected_cards">
+        <div class="cards">
+            <div class="like_btn">
+               <img src="./home-images/hearticon-home.png" alt="" class="like">
+            </div>
+            <div class="productimg">
+                <img src="home-images/galaxy-home.png" alt="Product Name">
+            </div>
+            <div class="description">
+              <p>Galaxy</p>
+              <span>$19.99</span>
+            </div>
+             <button class="green-button">ADD TO CART</button>
+            </div>
+
+          <div class="cards">
+            <div class="productimg">
+              <img src="home-images/hoodyboi-home.png" alt="Product Name">
+            </div>
+            <div class="description">
+              <p>Hoodyboi</p>
+              <span style="color:red;">$29.99</span>
+            </div>
+            <button class="green-button">ADD TO CART</button>
+          </div>
+
+          <div class="cards">
+            <div class="productimg">
+              <img src="home-images/bruh-home.png" alt="Product Name">
+            </div>
+            <div class="description">
+              <p>Bruh</p>
+              <span>$16.99</span>
+            </div>
+            <button class="green-button">ADD TO CART</button>
+          </div>
+
+          <div class="cards">
+            <div class="productimg">
+              <img src="home-images/nype-home.png" alt="Product Name">
+            </div>
+            <div class="description">
+              <p>Nype</p>
+              <span>$11.99</span>
+            </div>
+            <button class="green-button">ADD TO CART</button>
+          </div>
+      </div>
+
+
+      <div class="arrows">
+        <img src="home-images/arrow-right-home.png" alt="arrow-right">
+      </div>
+
+    </div>
+
+
+    <div class="selectforyou">
+      <p>Recommended Tees</p>
+    </div>
+
+
+    <div class="product-grid">
+      <div class="arrows">
+        <img src="home-images/arrow-left-home.png" alt="arrow-left">
+      </div>
+
+
+      <div class="selected_cards">
+        <div class="cards">
+          <div class="productimg">
+            <img src="home-images/AEO-home.png" alt="Product Name">
+          </div>
+          <div class="description">
+            <p>AEO</p>
+            <span>$19.99</span>
+          </div>
+          <button class="green-button">ADD TO CART</button>
+        </div>
+
+        <div class="cards">
+          <div class="productimg">
+            <img src="home-images/kappa-home.png" alt="Product Name">
+          </div>
+          <div class="description">
+            <p>Kappa</p>
+            <span style="color: red;">$9.99</span>
+          </div>
+          <button class="green-button">ADD TO CART</button>
+        </div>
+
+        <div class="cards">
+          <div class="like_btn">
+            <img src="./home-images/hearticon-home.png" alt="" class="like">
+          </div>
+          <div class="productimg">
+            <img src="home-images/pergamino-home.png" alt="Product Name">
+          </div>
+          <div class="description">
+            <p>Pergamino</p>
+            <span>$109.99</span>
+          </div>
+          <button class="green-button">ADD TO CART</button>
+        </div>
+
+        <div class="cards">
+          <img src="home-images/learnwith-home.png" alt="Product Name">
+          <div class="description">
+            <p>Learn with</p>
+            <span>$79.99</span>
+          </div>
+          <button class="green-button">ADD TO CART</button>
+        </div>
+      </div>
+ 
+
+
+      <div class="arrows">
+        <img src="home-images/arrow-right-home.png" alt="arrow-right">
+      </div>
+    </div>
+
+    <div class="selectforyou">
+        <p>Favorite Tees</p>
+    </div>
+
+    <div class="product-grid">
+
+      <div class="arrows">
+        <img src="home-images/arrow-left-home.png" alt="arrow-left">
+      </div>
+
+
+      <div class="selected_cards">
+        <div class="cards">
+          <div class="productimg">
+            <img src="home-images/santa-home.png" alt="Product Name">
+          </div>
+          <div class="description">
+            <p>Santa</p>
+            <span>$199.99</span>
+          </div>
+          <button class="green-button">ADD TO CART</button>
+        </div>
+
+        <div class="cards">
+          <div class="productimg">
+            <div class="like_btn">
+              <img src="./home-images/hearticon-home.png" alt="" class="like">
+           </div>
+            <img src="home-images/seadog-home.png" alt="Product Name">
+          </div>
+          <div class="description">
+            <p>Sea Dog</p>
+            <span style="color: red;">$299.99</span>
+          </div>
+          <button class="green-button">ADD TO CART</button>
+        </div>
+
+        <div class="cards">
+          <div class="productimg">
+            <img src="home-images/westand-home.png" alt="Product Name">
+          </div>
+          <div class="description">
+            <p>We Stand</p>
+            <span>$169.99</span>
+          </div>
+          <button class="green-button">ADD TO CART</button>
+        </div>
+
+        <div class="cards">
+          <div class="productimg">
+            <img src="home-images/trinidad-home.png" alt="Product Name">
+          </div>
+          <div class="description">
+            <p>Trinidad</p>
+            <span>$119.99</span>
+          </div>
+          <button class="green-button">ADD TO CART</button>
+        </div>
+
+      </div>
+
+
+      <div class="arrows">
+        <img src="home-images/arrow-right-home.png" alt="arrow-right">
+      </div>
+
+    </div>
+
+  </section>
+
+  
+<!--FOOTER-->
+
+  <footer class="site-footer">
+    <div class="footer-links">
+      <a href="/">
+        <img src="cooltees-logo.png" alt="Cool Tees Logo">
+      </a>
+    </div><br>
+    <div class="small-text-light"></div><small>Premium Quality soft drinks, hot drinks, soda & energy drinks at the best
+      and most affordable price. We have a new offer every day for 365 days</small><br></div>
+    <div class="small-text-dark"><small><strong>Contact<br></strong> Emaildrink@cooltees.com | Hotline: +1 131 138 138
+      </small></div>
+    <div class="small-super-light"><small>DESIGN BY COOLTEES - ©2022 ALL RIGHTS RESERVED</small></div>
+  </footer>
+</body>
+
+</html>
+<!--SCRIPT-->
+
+<script>
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+</script>
